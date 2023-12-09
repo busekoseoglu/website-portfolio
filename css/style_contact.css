@@ -1,0 +1,44 @@
+#bar {
+    position: relative;
+    height: 100vh;
+    background: url('../image/photo-2.jpeg') center/cover no-repeat;
+}
+
+.frame {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 5px; 
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    gap: 20px;
+}
+
+.menu-items button {
+    background: none; /* Remove the default background */
+    border: none; /* Remove the default border */
+    padding: 0; /* Remove padding to minimize the button's impact */
+}
+
+.menu-items .icon {
+    width: 40px; /* Adjust the width of the icons as needed */
+    height: 40px; /* Adjust the height of the icons as needed */
+}
+
+
+
