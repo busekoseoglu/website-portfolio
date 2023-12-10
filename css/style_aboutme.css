@@ -1,6 +1,12 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 #bar {
     position: relative;
-    height: 100vh;
     background: url('../image/photo-2.jpeg') center/cover no-repeat;
 }
 
@@ -31,34 +37,41 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     border-radius: 5px; 
-    width: 80%;
+    width: 70%;
     padding: 20px;
     text-align: center;
     flex-direction: column;
     position: relative;
-    transform: translate(-50%, -50%);
-    top: 40%;
-    left: 50%;
+    margin: auto;
+    margin-top: 50px;
 }
 
-.menu-items{
+.aboutme{
     display: flex;
-    justify-content: center;
-    position: relative;
-    top: 50%;
     gap: 20px;
 }
 
-.menu-items button {
-    background: none; /* Remove the default background */
-    border: none; /* Remove the default border */
-    padding: 0; /* Remove padding to minimize the button's impact */
+.personimage{
+    width: 220px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.personimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
-.menu-items .icon {
-    width: 40px; /* Adjust the width of the icons as needed */
-    height: 40px; /* Adjust the height of the icons as needed */
+.summary{
+    width: 70%;
+    text-align: left;
 }
 
+.projects{
+    flex-direction: column;
+}
 
-
+.certificates{
+    flex-direction: column;
+}
