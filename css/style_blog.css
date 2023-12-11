@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#bar {
+    position: relative;
+    background: url('../image/photo-2.jpeg') center/cover no-repeat;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 20px;
+}
+
+#nav-text{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+
+.navbar-nav{
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    border-color: white;
+    margin-right: 20px;
+} 

@@ -10,7 +10,6 @@ body, html {
     background: url('../image/photo-2.jpeg') center/cover no-repeat;
 }
 
-
 .logo{
     width: 60px;
     margin-left: 20px;
@@ -19,6 +18,7 @@ body, html {
 #nav-text{
     color: white;
     font-weight: bold;
+    font-family: 'Ubuntu';
 }
 
 .navbar-nav{
@@ -66,12 +66,65 @@ body, html {
 .summary{
     width: 70%;
     text-align: left;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: lighter;
 }
 
-.projects{
+.list-group{
     flex-direction: column;
 }
 
-.certificates{
-    flex-direction: column;
+.title{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.list-group{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+@media screen and (max-width:768px){
+    .aboutme{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .title{
+        font-family: 'Ubuntu';
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .summary{
+        width: 90%;
+        text-align: left;
+        font-family: 'Ubuntu';
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .list-group{
+        font-family: 'Ubuntu';
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .frame {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        border-radius: 5px; 
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+    }
 }

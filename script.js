@@ -19,3 +19,8 @@ function openContactPage() {
     // Change 'aboutmePage.html' to the actual filename or path of your about page
     window.location.href = 'contactPage.html';
 }
+
+function openPortfolioPage() {
+    // Change 'aboutmePage.html' to the actual filename or path of your about page
+    window.location.href = 'portfolioPage.html';
+}

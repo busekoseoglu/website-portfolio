@@ -13,6 +13,7 @@
 #nav-text{
     color: white;
     font-weight: bold;
+    font-family: 'Ubuntu';
 }
 
 .navbar-nav{
@@ -60,5 +61,9 @@
     height: 40px; /* Adjust the height of the icons as needed */
 }
 
-
+.title{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-weight: bold;
+}
 
