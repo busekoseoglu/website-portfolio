@@ -29,3 +29,16 @@ body, html {
     border-color: white;
     margin-right: 20px;
 } 
+
+.row{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
